@@ -1,0 +1,18 @@
+current directory: /Users/christopherhaas/Desktop/dev/abendPropMgmt/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/christopherhaas/.rubies/ruby-3.4.1/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/christopherhaas/Desktop/dev/abendPropMgmt/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251002-81666-s3v71d sitelibdir\=./.gem.20251002-81666-s3v71d clean
+
+current directory: /Users/christopherhaas/Desktop/dev/abendPropMgmt/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251002-81666-s3v71d sitelibdir\=./.gem.20251002-81666-s3v71d
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/christopherhaas/Desktop/dev/abendPropMgmt/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251002-81666-s3v71d sitelibdir\=./.gem.20251002-81666-s3v71d install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20251002-81666-s3v71d/racc
+
+current directory: /Users/christopherhaas/Desktop/dev/abendPropMgmt/vendor/bundle/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20251002-81666-s3v71d sitelibdir\=./.gem.20251002-81666-s3v71d clean

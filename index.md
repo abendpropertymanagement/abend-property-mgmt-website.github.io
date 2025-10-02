@@ -59,6 +59,15 @@ title: Remote Airbnb Management
   </div>
 </section>
 
+<section class="section" id="spotlight">
+  <div class="container">
+    <h2>Client Spotlight</h2>
+    <div>
+      <div class="airbnb-embed-frame" data-id="49983147" data-view="home" data-hide-price="true" style="width: 100%; margin: 0 auto; background:#FAFAF8"><a href="https://www.airbnb.com/rooms/49983147?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget">View On Airbnb</a><a href="https://www.airbnb.com/rooms/49983147?guests=1&amp;adults=1&amp;s=66&amp;source=embed_widget" rel="nofollow">Condo in Kahuku · ★4.93 · 2 bedrooms · 2 beds · 1 bath</a><script async="" src="https://www.airbnb.com/embeddable/airbnb_jssdk"></script></div>
+    </div>
+  </div>
+</section>
+
 <section class="section" id="faq">
   <div class="container">
     <h2>FAQ</h2>
@@ -98,9 +107,6 @@ title: Remote Airbnb Management
         <button class="btn" type="submit">SEND</button>
         <div id="form-status" class="form-status" aria-live="polite"></div>
       </form>
-      <p class="muted" style="margin-top:10px;color:#5F6368">
-        Prefer email? <a href="mailto:abendpropertymanagement@gmail.com">abendpropertymanagement@gmail.com</a>
-      </p>
     </div>
   </div>
 </section> 
