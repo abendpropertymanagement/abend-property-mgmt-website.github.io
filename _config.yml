@@ -1,0 +1,19 @@
+title: "Abend Property Management"
+description: "Remote Airbnb Management — Referral-based services tailored for short-term rental hosts."
+url: "" # set later if using a custom domain
+baseurl: "" # do not set for user/organization site
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - node_modules
+  - vendor
+
+# Enable GitHub Pages defaults
+plugins:
+  - jekyll-seo-tag
+
+# SEO
+author: Abend Property Management 
