@@ -2,12 +2,20 @@
 layout: default
 title: Remote Airbnb Management
 ---
+<!-- START Formbricks Surveys -->
+<script type="text/javascript">
+!function(){
+    var appUrl = "https://app.formbricks.com"; // use PUBLIC_URL if you are using multi-domain setup, otherwise use WEBAPP_URL
+    var environmentId = "cmg9tsxlo3novtn01acg86oym";
+var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src=appUrl+"/js/formbricks.umd.cjs";var e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(t,e),setTimeout(function(){window.formbricks.setup({environmentId: environmentId, appUrl: appUrl})},500)}();
+</script>
+<!-- END Formbricks Surveys -->
 
 <section class="section hero">
   <div class="container">
     <h1>Remote Airbnb Management</h1>
     <p>Referral-based services tailored for short-term rental hosts.</p>
-    <a href="#contact" class="btn">GET STARTED</a>
+    <button class="btn contact_us">GET IN TOUCH</button>
   </div>
 </section>
 
@@ -83,30 +91,10 @@ title: Remote Airbnb Management
 <section class="section" id="contact">
   <div class="container">
     <h2>Contact Us</h2>
-    <div class="form" style="margin-top:12px">
-      <!--
-        FORM HANDLING (Formspree):
-        1) Go to https://formspree.io/ and create a form.
-        2) Set the recipient email to abendpropertymanagement@gmail.com.
-        3) Replace the action URL below with your Formspree endpoint.
-           Example: https://formspree.io/f/xxxxxyyy
-      -->
-      <form id="contact-form" action="https://formspree.io/f/REPLACE_WITH_YOUR_ENDPOINT" method="POST">
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" autocomplete="name" required />
 
-        <label for="email">Email</label>
-        <input id="email" name="_replyto" type="email" autocomplete="email" required />
+    <div style="margin-top:12px;text-align:center">
+      <button class="btn contact_us">Contact Us</button>
 
-        <label for="location">Property Location</label>
-        <input id="location" name="location" type="text" required />
-
-        <label for="message">Message <span class="muted" aria-hidden="true">(optional)</span></label>
-        <textarea id="message" name="message" placeholder="Tell us about your property…"></textarea>
-
-        <button class="btn" type="submit">SEND</button>
-        <div id="form-status" class="form-status" aria-live="polite"></div>
-      </form>
     </div>
   </div>
 </section> 

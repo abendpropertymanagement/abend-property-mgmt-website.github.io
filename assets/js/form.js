@@ -19,7 +19,16 @@
         status.textContent = "Thanks! We’ll get back to you shortly.";
         status.className = 'form-status success';
       } else {
-        status.textContent = "Something went wrong. Please try again or email us directly.";
+        try {
+          const data = await res.json();
+          if (data && data.errors && data.errors.length) {
+            status.textContent = data.errors.map(e => e.message).join(" ");
+          } else {
+            status.textContent = "Form error. Please verify the endpoint is active and try again.";
+          }
+        } catch (_) {
+          status.textContent = "Form error. Please verify the endpoint is active and try again.";
+        }
         status.className = 'form-status error';
       }
     } catch(err){
