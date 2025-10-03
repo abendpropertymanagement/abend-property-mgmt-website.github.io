@@ -15,7 +15,7 @@ var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src
   <div class="container">
     <h1>Remote Airbnb Management</h1>
     <p>Referral-based services tailored for short-term rental hosts.</p>
-    <button class="btn contact_us">GET IN TOUCH</button>
+    <a href="#contact" class="btn contact_us">GET IN TOUCH</a>
   </div>
 </section>
 
@@ -29,9 +29,9 @@ var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src
         <p>Handling all messages and guest communication to ensure a seamless experience.</p>
       </article>
       <article class="card">
-        <svg class="icon"><use href="#icon-up"/></svg>
+        <svg class="icon"><use href="#icon-chart"/></svg>
         <h3>Listing Optimization</h3>
-        <p>Improving your property’s visibility and conversion with better photos, copy, and pricing.</p>
+        <p>Improving your property's visibility and conversion with better photos, copy, and pricing.</p>
       </article>
       <article class="card">
         <svg class="icon"><use href="#icon-home"/></svg>
@@ -91,10 +91,6 @@ var t=document.createElement("script");t.type="text/javascript",t.async=!0,t.src
 <section class="section" id="contact">
   <div class="container">
     <h2>Contact Us</h2>
-
-    <div style="margin-top:12px;text-align:center">
-      <button class="btn contact_us">Contact Us</button>
-
-    </div>
+    <iframe style="border:none;width:100%;" id="my-form-kemxjm" src="https://opnform.com/forms/my-form-kemxjm"></iframe><script type="text/javascript" onload="initEmbed('my-form-kemxjm')" src="https://opnform.com/widgets/iframe.min.js"></script>
   </div>
 </section> 
